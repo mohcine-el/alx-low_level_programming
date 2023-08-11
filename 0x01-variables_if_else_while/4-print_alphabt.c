@@ -1,16 +1,19 @@
 #include <stdio.h>
 
 /**
- * main - display numbers from 0 to 9
- * Return: return 0 and exit the program.
+ * main - Prints the alphabet without q and e
+ * Return: return 0 and exit the program
  */
 int main(void)
 {
-	int i;
+	char l;
 
-	for (i = 0; i < 10; i++)
-		printf("%d", i);
-	printf("\n");
+	for (l = 'a'; l <= 'z'; l++)
+	{
+		if (l != 'e' && l != 'q')
+			putchar(l);
+	}
+
+	putchar('\n');
 	return (0);
 }
-
