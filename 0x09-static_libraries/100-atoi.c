@@ -34,4 +34,3 @@ int _atoi(char *s)
 	flag = flag * -1;
 	return (num * flag);
 }
-
