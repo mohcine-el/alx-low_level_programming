@@ -24,5 +24,4 @@ free(cursor);
 *temp = NULL;
 
 }
-}
 
